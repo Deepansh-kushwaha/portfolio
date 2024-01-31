@@ -7,13 +7,16 @@ header{
     padding: 18vh;
 }
 /* nav */
-.nav-link:active{
-    color:#d3b714;
+.navbar-nav > .active > a {
+    color:#fefe00 !important;
 }
+
 .nav-link{
-    color: white;
     font-weight: bold;
+    color: white;
 }
+
+
 /* list icons  */
 .icons-list{
 list-style: none;
@@ -65,8 +68,24 @@ list-style: none;
     background-color: #f5f5f5;
     padding: 10px;
     border-radius: 15px;
-
+    top: 10px; 
+    left: 1000px;
 }
+
+.sidebar-ico{
+    color: red;
+    font-size: 24px;
+}
+/* review sectipn */
+.partners{
+    font-size: 80px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    color: #b4b3c3;
+    margin-inline: 110px;
+    margin-top: 20px;
+}
+
 /* footer */
 footer{
     background-color: #323150;
