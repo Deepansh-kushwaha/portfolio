@@ -1,0 +1,74 @@
+main{
+    background-color: #f0eff5;
+    
+}
+header{
+    background-image: url("Colored\ Shapes.svg");
+    padding: 18vh;
+}
+/* nav */
+.nav-link:active{
+    color:#d3b714;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+/* list icons  */
+.icons-list{
+list-style: none;
+}  
+/* about section */
+.cv-area{
+    width: 60vw;
+    background-color: #f5f5f5;
+}
+.cv-area div{
+    width: 50%;
+}
+.cv-area li{
+    list-style: none;
+}
+.skills-bar-container{
+    width:  25vw;
+    height: 5px;
+    background-color: #e8e8e8;
+    margin: 5px;
+}
+.skills-bar{
+    width: 5vw;
+    background-color: #efdb6b;
+    height: 5px;
+}
+.stats-item{
+    display: flex;
+    gap: 15px;
+}
+/* service section */
+.service-container{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+.s1{
+    background-color: #6868dd;
+}
+.s2{
+    background-color:#eecf49;
+}
+.s3{
+    background-color: #f5495d;
+}
+/* experience containter */
+.exp-container{
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+/* footer */
+footer{
+    background-color: #323150;
+    color: whitesmoke;
+}
