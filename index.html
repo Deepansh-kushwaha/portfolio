@@ -56,13 +56,13 @@
         <h3 class="p-2">I,am a Full stack Developer</h3>
              <div id="icons p-2 ">
           <ul class="d-flex justify-content-center align-items-center gap-5 ps-0">
-              <li class="icons-list"><i class="fa-brands fa-square-instagram border rounded-circle p-2"></i></li>
-              <li class="icons-list"><i class="fa-brands fa-square-x-twitter border rounded-circle p-2"></i></li>
-              <li class="icons-list"><i class="fa-brands fa-square-github border rounded-circle p-2"></i></li>
-              <li class="icons-list"><i class="fa-solid fa-envelope border rounded-circle p-2"></i></li>
-            <li class="icons-list"><i class="fa-brands fa-linkedin border rounded-circle p-2"></i></li>
+              <li class="icons-list"><a target="_blank" href="https://www.instagram.com/deepansh_kushwaha/"><i class="fa-brands fa-square-instagram border rounded-circle p-2"></i></a></li>
+              <li class="icons-list"><a target="_blank" href="https://twitter.com/DeepanshKushwah"><i class="fa-brands fa-square-x-twitter border rounded-circle p-2"></i></a></li>
+              <li class="icons-list"><a target="_blank" href="https://github.com/Deepansh-kushwaha"><i class="fa-brands fa-square-github border rounded-circle p-2"></i></a></li>
+              <li class="icons-list"><a target="_blank" href="mailto:deepanshkushwaha9@gmail.com"><i class="fa-solid fa-envelope border rounded-circle p-2"></i></a></li>
+            <li class="icons-list"><a target="_blank" href="https://www.linkedin.com/in/deepansh-kushwaha/"><i class="fa-brands fa-linkedin border rounded-circle p-2"></i></a></li>
           </ul>
-          <button align="center" class="btn btn-danger rounded-5">Hire Me</button>
+          <a href="#contact"><button align="center" class="btn btn-danger rounded-5">Hire Me</button></a>
         </div>
     </center>
     <p class="mt-5" style="color: grey;">scroll down</p>
@@ -70,55 +70,63 @@
       </header>
 <!--About section  -->
       <section id="about" class="p-5">
-        <h2 class="heading">About Me</h2>
-        <div class="d-flex justify-content-center align-items-center m-3">
+        <div class="heading-cont position-relative">
+          <img src="dots.png" class="dots position-absolute top-50 start  translate-middle" >
+          <h2 class="heading position-relative" >
+            About Me 
+          </h2>
+        </div>
+        <div class="d-flex  flex-column flex-lg-row justify-content-center align-items-center m-3">
         <img src="profile-pic.png" alt="No image found" height="200vh" class="rounded-circle border shadow-5" />
         <div class="cv-area container border rounded-4 m-5 p-3 d-flex gap-2 shadow" >
           <div >
-            <p>
+            <p class="fw-semibold" align="justify">
               I am Deepanh , I'm a full-stack web developer who thrives on the beautiful chaos of building something awesome from scratch. From crafting sleek front-end interfaces that sing to the eye, to wrangling the logic of the back-end like a digital rodeo champ, I'm all about bringing ideas to life, pixel by pixel, line by line. 
             </p>
-            <button class="btn btn-danger rounded-5"><i class="fa-solid fa-cloud-arrow-down"></i> Download CV</button>
+            <button class="btn btn-danger rounded-5 fw-bold"><a style="text-decoration: none; color: white;" href="/Deepansh-kushwaha-resume.pdf" download><i class="fa-solid fa-cloud-arrow-down"></i></a> Download CV</button>
           </div>
           <ul class="m-0">
-            <label for="skills-bar-lable">Html</label>
-            <li class="skills-bar-container"><p class="skills-bar"></p></li>
+            <label class="fw-bold" for="skills-bar-lable">Html</label>
+            <li class="skills-bar-container"><p class="skills-bar1 "></p></li>
 
-            <label for="skills-bar-lable">Html</label>
-            <li class="skills-bar-container"><p class="skills-bar"></p></li>
+            <label class="fw-bold" for="skills-bar-lable">CSS</label>
+            <li class="skills-bar-container"><p class="skills-bar2"></p></li>
 
-            <label for="skills-bar-lable">Html</label>
-            <li class="skills-bar-container"><p class="skills-bar"></p></li>
+            <label class="fw-bold" for="skills-bar-lable">PHP</label>
+            <li class="skills-bar-container"><p class="skills-bar3"></p></li>
+
+            <label class="fw-bold" for="skills-bar-lable">JS</label>
+            <li class="skills-bar-container"><p class="skills-bar4"></p></li>
           </ul>
         </div>
     </div>
-        <div class="container-fluid stats-area d-flex justify-content-around p-5">
+        <div class="container-fluid stats-area d-lg-flex d-sm-grid  justify-content-around p-5">
           <div class="stats-item 1">
-            <i class="fa-regular fa-thumbs-up" style="font-size: 50px;"></i>
+            <i class="fa-regular fa-thumbs-up" style="font-size: 50px; color: gray; opacity: 0.3;"></i>
             <div class="stats">
-              <h5>50</h5>
-              <p>Projects completed</p>
+              <h5 class="fw-bold">15</h5>
+              <p class="fw-semibold">Projects completed</p>
             </div>
           </div>
           <div class="stats-item 2">
-            <i class="fa-solid fa-people-group" style="font-size: 50px;"></i>
+            <i class="fa-solid fa-people-group" style="font-size: 50px; color: gray; opacity: 0.3;"></i>
             <div class="stats">
-              <h5>50</h5>
-              <p>Projects completed</p>
+              <h5 class="fw-bold">5</h5>
+              <p class="fw-semibold">Cup of coffee</p>
             </div>
           </div>
           <div class="stats-item 3">
-            <i class="fa-solid fa-mug-hot"style="font-size: 50px;"></i>
+            <i class="fa-solid fa-mug-hot"style="font-size: 50px; color: gray; opacity: 0.3;"></i>
             <div class="stats">
-              <h5>50</h5>
-              <p>Projects completed</p>
+              <h5 class="fw-bold">6</h5>
+              <p class="fw-semibold">Satisfied Client</p>
             </div>
           </div>
           <div class="stats-item 4">
-            <i class="fa-solid fa-certificate" style="font-size: 50px;"></i>
+            <i class="fa-solid fa-certificate" style="font-size: 50px; color: gray; opacity: 0.3;"></i>
             <div class="stats">
-              <h5>50</h5>
-              <p>Projects completed</p>
+              <h5 class="fw-bold">20</h5>
+              <p class="fw-semibold">Competetion</p>
             </div>
           </div>
         </div>
@@ -126,7 +134,7 @@
 <!-- services section  -->
       <section id="services" class="px-5">
         <h2 class="heading">Services</h2>
-        <div class="container d-flex gap-4 py-4">
+        <div class="container d-flex  flex-column flex-lg-row gap-4 py-4">
         <div class="service-container shadow s1">
             <img class="m-2" src="figmalogo.png" alt="no image">
             <h2>UI/UX designs</h2>
@@ -148,7 +156,7 @@
 <!-- experience section -->
       <section id="experience" class="p-5">
         <h2 class="heading">Experience</h2>
-        <div class="d-flex gap-5 my-3">
+        <div class="d-flex gap-5 flex-column flex-lg-row my-3">
         <div class="exp-container 1 d-flex gap-4 shadow-lg">
             <div class="side d-flex flex-column justify-content-around ps-2">
               <i class="sidebar-ico fa-solid fa-graduation-cap"></i>
@@ -204,58 +212,58 @@
         <h2 class="heading">Recent Works</h2> 
     <div class="row mt-5 ">
         <div class="col-4">
-            <div class="card rounded-4 shadow-5">
+            <div class="card rounded-4 shadow">
                 <div class="card-body">
-                    <h3 class="card-title">Title</h3>
-                    <img src="" alt="no image found">
+                    <h3 class="card-title">Hungerassistant.com</h3>
+                    <img src="hungerassistant.png" alt="no image found">
                 </div>
             </div>
         </div>
         <div class="col-4">
-            <div class="card rounded-4 shadow-5">
+            <div class="card rounded-4 shadow">
                 <div class="card-body">
-                    <h3 class="card-title">Title</h3>
-                    <img src="" alt="no image found">
+                    <h3 class="card-title">Talentvale.com</h3>
+                    <img src="talentfav.png" alt="no image found">
                 </div>
             </div>
         </div>
         <div class="col-4">
-            <div class="card rounded-4 shadow-5">
+            <div class="card rounded-4 shadow">
                 <div class="card-body">
-                    <h3 class="card-title">Title</h3>
-                        <img src="" alt="no image found">
+                    <h3 class="card-title">Portfolio</h3>
+                        <img src="boy1.png" alt="no image found">
                 </div>
             </div>
         </div>
      
     </div>
       <div class="row mt-4">
-        <div class="col-4">
-          <div class="card rounded-4 shadow-5">
+        <div class="col-6">
+          <div class="card rounded-4 shadow">
+            <div class="card-body">
+              <h3 class="card-title">iimtevents.in</h3>
+                  <img src="iimtevents.png" alt="no image found">
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card rounded-4 shadow">
+            <div class="card-body">
+              <h3 class="card-title">textutils.com</h3>
+                  <img src="textutils.png" alt="no image found">
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-4">
+          <div class="card rounded-4 shadow">
             <div class="card-body">
               <h3 class="card-title">Title</h3>
                   <img src="" alt="no image found">
             </div>
           </div>
-        </div>
-        <div class="col-4">
-          <div class="card rounded-4 shadow-5">
-            <div class="card-body">
-              <h3 class="card-title">Title</h3>
-                  <img src="" alt="no image found">
-            </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="card rounded-4 shadow-5">
-            <div class="card-body">
-              <h3 class="card-title">Title</h3>
-                  <img src="" alt="no image found">
-            </div>
-          </div>
-        </div>
+        </div> -->
       </div>
-      <center> <button class="btn btn-danger rounded-pill mt-4 shadow">Load more</button></center>
+      <center> <button class="btn btn-danger rounded-pill mt-5 shadow">Load more</button></center>
     </section>
 <!-- Review are  -->
       <section class="p-5"  id="review-area">
@@ -336,7 +344,7 @@
     
         <div class="show-case p-3">
           <hr>
-            <table align="center" >
+            <table align="center" class="d-none d-lg-block" >
                 <tbody >
                     <tr>
                         <td ><i class="fa-brands partners fa-html5"></i></td>
@@ -357,7 +365,7 @@
       </section>
       <section id="contact" class="p-5">
         <h2 class="heading">Get In Touch</h2>
-        <div class="contact-area d-flex gap-5 justify-content-around mt-4">
+        <div class="contact-area d-flex  flex-column flex-lg-row gap-5 justify-content-around mt-4">
           <span >
             <h3>Lets talk about everything!</h3>
             <p>Don't like forms ,Send me an <a href="mailto: deepanshkushwaha9@gmail.com" style="color: red;">Email</a></p>
@@ -365,15 +373,16 @@
             <form class="form"  action="https://formsubmit.co/deepanshkushwaha9@gmail.com" method="POST">
               <input type="hidden" name="_autoresponse" value="Thank you for your response, I will reach you soon">
               <input type="hidden" name="_captcha" value="true">
-              <input type="hidden" name="_subject" value="New submission!">
+              
               <input type="hidden" name="_next" value="/">
               <input type="hidden" name="_template" value="table">
-              <div class="input-grp d-flex gap-5 justify-content-evenly">
-                <input class="inp-grp-elem  shadow-sm  rounded-5" type="text" name="First-name" placeholder="First name" required> 
-                <input class="inp-grp-elem shadow-sm  rounded-5" type="text" name="lastname" placeholder="Last name">
+              <div class="input-grp d-lg-flex d-sm-block gap-5 justify-content-evenly">
+                <input class="inp-grp-elem  shadow mb-4 mb-lg-0 p-sm-4 rounded-5" type="text" name="First-name" placeholder="First name" required> 
+                <input class="inp-grp-elem shadow    rounded-5" type="text" name="lastname" placeholder="Last name">
               </div>
-                <input class="p-4 shadow-sm input-grp rounded-5" type="email" name="email" placeholder="Email address" required>
-                <textarea class="p-4 shadow-sm input-grp rounded-5" name="message"  cols="20" rows="4" placeholder="Type your message here..." minlength="7" required></textarea>
+                <input class="p-4 shadow input-grp rounded-5"  type="text" name="_subject" placeholder="Give the type of response ex:feedback, hireing, comments,etc" >
+                <input class="p-4 shadow input-grp rounded-5" type="email" name="email" placeholder="Email address" required>
+                <textarea class="p-4 shadow input-grp rounded-5" name="message"  cols="20" rows="4" placeholder="Type your message here..." minlength="7" required></textarea>
                 <button class="btn btn-danger rounded-5 m-2 ms-3">Send Message</button>
             </form>
         </div>

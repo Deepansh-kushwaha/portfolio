@@ -4,6 +4,12 @@ main{
 }
 .heading{
     font-weight: bolder;
+    
+}
+
+.dots{
+    height: 180px;
+    
 }
 header{
     background-image: url("Colored\ Shapes.svg");
@@ -23,7 +29,18 @@ header{
 /* list icons  */
 .icons-list{
 list-style: none;
-}  
+transition: all .30s ease-in-out
+} 
+.icons-list a{
+    text-decoration: none;
+    color: white;
+} 
+.icons-list a:hover{
+    color: #efdb6b;
+}
+.icons-list:hover{
+     transform: scale(1.3);
+}
 /* about section */
 .cv-area{
     width: 60vw;
@@ -41,8 +58,23 @@ list-style: none;
     background-color: #e8e8e8;
     margin: 5px;
 }
-.skills-bar{
-    width: 5vw;
+.skills-bar1{
+    width: 95%;
+    background-color: #ef6b6b;
+    height: 5px;
+}
+.skills-bar2{
+    width: 90%;
+    background-color: #6b7aef;
+    height: 5px;
+}
+.skills-bar3{
+    width: 88%;
+    background-color: #9e6bef;
+    height: 5px;
+}
+.skills-bar4{
+    width: 85%;
     background-color: #efdb6b;
     height: 5px;
 }
@@ -85,11 +117,24 @@ list-style: none;
     color: red;
     font-size: 24px;
 }
+/* recent works */
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-body img{
+    aspect-ratio: 1/1;
+    
+    height: 200px;
+    width: 200px;
+}
 /* review sectipn */
 .comment{
     padding: 15px;
     background-color: white;
-    width: 49%;
+    /* width: 49%; */
 }
 .partners{
     font-size: 60px;
@@ -105,10 +150,11 @@ list-style: none;
     background-image: url("World-Map.svg");
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+    background-repeat: no-repeat;
 }
-.form{
+/* .form{
     width: 60%;
-}
+} */
 .input-grp{
     width: 80%;
     margin: 20px;
