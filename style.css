@@ -2,6 +2,9 @@ main{
     background-color: #f0eff5;
     
 }
+.heading{
+    font-weight: bolder;
+}
 header{
     background-image: url("Colored\ Shapes.svg");
     padding: 18vh;
@@ -56,12 +59,18 @@ list-style: none;
 }
 .s1{
     background-color: #6868dd;
+    color: white;
 }
 .s2{
     background-color:#eecf49;
 }
 .s3{
     background-color: #f5495d;
+    color: white;
+}
+.service-container img{
+    height: 200px;
+    aspect-ratio: 1/1;
 }
 /* experience containter */
 .exp-container{
@@ -77,15 +86,42 @@ list-style: none;
     font-size: 24px;
 }
 /* review sectipn */
+.comment{
+    padding: 15px;
+    background-color: white;
+    width: 49%;
+}
 .partners{
-    font-size: 80px;
-    aspect-ratio: 1/1;
+    font-size: 60px;
+    aspect-ratio: 4/3;
     object-fit: contain;
     color: #b4b3c3;
+    padding-inline: auto;
     margin-inline: 110px;
     margin-top: 20px;
 }
+/* contact section */
+.contact-area{
+    background-image: url("World-Map.svg");
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+.form{
+    width: 60%;
+}
+.input-grp{
+    width: 80%;
+    margin: 20px;
+    border: none;
 
+   
+}
+.inp-grp-elem{
+    padding: 15px;
+    padding-left: 18px;
+    border: none;
+    width: 100%;
+}
 /* footer */
 footer{
     background-color: #323150;
