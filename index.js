@@ -11,4 +11,4 @@ $(document).ready(function () {
     });
 });
 
-console.log("i am here")
+  AOS.init();
