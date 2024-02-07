@@ -18,9 +18,20 @@ header{
     background-image: url("Colored\ Shapes.svg");
     padding: 18vh;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 700 */
+
+.dancing-script  {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
 /* nav */
 .navbar-nav > .active > a {
-    color:#fefe00 !important;
+    color:#ffc107!important;
 }
 
 .nav-link{
@@ -32,7 +43,7 @@ header{
 /* list icons  */
 .icons-list{
 list-style: none;
-transition: all .30s ease-in-out
+transition: all .30s ease-in-out;
 } 
 .icons-list a{
     text-decoration: none;
